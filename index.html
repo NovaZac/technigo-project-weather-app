@@ -3,11 +3,44 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Weather app</title>
-    <!-- Don't forget to link the CSS file here! -->
   </head>
+
   <body>
-    <h1>Weather app</h1>
-  <!-- Don't forget to connect the JavaScript file -->
+    <div class="menu"></div>
+
+    <div class="tempature">
+      <h1 id="temp"></h1>
+    </div>
+
+    <div class="cityname">
+      <h1 id="name"></h1>
+    </div>
+
+    <div class="description">
+      <h2 id="description"></h2>
+    </div>
+
+    <div class="sun">
+      <h3 id="sunrise"></h3>
+      <h3 id="sunset"></h3>
+    </div>
+
+    <ul id="4daycast"></ul>
+
+    <div class="humidity">
+      <h3>Humidity</h3>
+      <h3 id="humidity"></h3>
+    </div>
+
+    <div class="feelslike">
+      <h3>Feels like</h3>
+      <h3 id="feelsLike"></h3>
+    </div>
+
+    <button class="show-more"></button>
+
+   <script src="./script.js"></script>
   </body>
 </html>
